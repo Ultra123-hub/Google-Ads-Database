@@ -28,4 +28,27 @@ CampaignName <br>
 StartDate <br>
 Budget <br>
 
+## Ad
+
+AdID <br>
+CampaignID <br>
+AdTitle <br>
+TargetURL <br>
+Impressions <br>
+
+## Keyword
+KeywordID <br>
+AdID <br>
+KeywordText <br>
+BidAmount <br>
+QualityScore <br>
+
+## Performance
+
+PerformanceID <br>
+AdID <br>
+Date <br>
+Clicks <br>
+Conversions <br>
+
 
