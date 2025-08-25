@@ -13,7 +13,7 @@ Entities are tables or real world objects that are meant to store information in
 
 # Advertiser
 This is the table that stores the advertisers' information. The attributes are as follows: <br>
-AdvertiserID **INT**
-AdvertiserName  VARCHAR
-ContactPerson VARCHAR
-ContactEmail  VARCHAR
+AdvertiserID **INT** <br>
+AdvertiserName  VARCHAR <br>
+ContactPerson VARCHAR <br>
+ContactEmail  VARCHAR <br>
