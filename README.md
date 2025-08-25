@@ -11,9 +11,21 @@ participation constraints.
 ## Main Entities in the Database
 Entities are tables or real world objects that are meant to store information in a database. They are the foundational components of an Entity Relationship Diagram (ERD). 
 
-# Advertiser
-This is the table that stores the advertisers' information. The attributes are as follows: <br>
-AdvertiserID **INT** <br>
-AdvertiserName  VARCHAR <br>
-ContactPerson VARCHAR <br>
-ContactEmail  VARCHAR <br>
+## Advertiser
+This is the table that stores the advertisers' information. The attributes and data types are as follows: <br>
+
+AdvertiserID **INT**   <br> 
+AdvertiserName  **VARCHAR** <br>
+ContactPerson **VARCHAR** <br>
+ContactEmail  **VARCHAR** <br>
+
+## Campaign
+This is the table that stores information from the campaigns. The attributes and data types are as follows: <br>
+
+CampaignID <br>
+AdvertiserID <br>
+CampaignName <br>
+StartDate <br>
+Budget <br>
+
+
