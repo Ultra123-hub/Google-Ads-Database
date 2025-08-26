@@ -171,3 +171,7 @@ select * from performance
 ```
 
 
+## Queries Supporting the Business Objectives
+
+
+
