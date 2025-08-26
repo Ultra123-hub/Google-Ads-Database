@@ -22,33 +22,34 @@ ContactEmail  **VARCHAR** <br>
 ## Campaign
 This is the table that stores information from the campaigns. The attributes and data types are as follows: <br>
 
-CampaignID <br>
-AdvertiserID <br>
-CampaignName <br>
-StartDate <br>
-Budget <br>
+CampaignID **INT** <br>
+AdvertiserID **INT** <br>
+CampaignName **INT** <br>
+StartDate **INT** <br>
+Budget **INT** <br>
 
 ## Ad
 
-AdID <br>
-CampaignID <br>
-AdTitle <br>
-TargetURL <br>
-Impressions <br>
+AdID **INT** <br>
+CampaignID **INT** <br>
+AdTitle **TEXT** <br>
+TargetURL **TEXT** <br>
+Impressions **INT** <br>
 
 ## Keyword
-KeywordID <br>
-AdID <br>
-KeywordText <br>
-BidAmount <br>
-QualityScore <br>
+KeywordID **INT** <br>
+AdID **INT** <br>
+KeywordText **TEXT** <br>
+BidAmount **INT** <br>
+QualityScore **INT** <br>
 
 ## Performance
 
-PerformanceID <br>
-AdID <br>
-Date <br>
-Clicks <br>
-Conversions <br>
+PerformanceID **INT** <br>
+AdID **INT** <br>
+Date **DATE** <br>
+Clicks **INT** <br>
+Conversions **INT** <br>
+
 
 
