@@ -53,10 +53,10 @@ Conversions **INT** <br>
 
 
 ## The Cardinality and Relationship Requirements for the Database
-Advertiser - Campaign: One advertiser can manage multiple campaigns, but each campaign belongs to a single advertiser.  (one-to-many)
-Campaign – Ad: One campaign can contain multiple ads, but each ad is linked to one campaign.  (one-to-many)
-Ad - Keyword: An ad can target multiple keywords, but each keyword is associated with one ad.  (one-to-many)
-Ad - Performance: One ad can generate multiple performance records over time, but each performance record belongs to a specific ad. (one-to-many)
+**Advertiser** - Campaign: One advertiser can manage multiple campaigns, but each campaign belongs to a single advertiser.  (one-to-many) <br>
+**Campaign** – Ad: One campaign can contain multiple ads, but each ad is linked to one campaign.  (one-to-many) <br>
+**Ad** - Keyword: An ad can target multiple keywords, but each keyword is associated with one ad.  (one-to-many)  <br>
+**Ad** - Performance: One ad can generate multiple performance records over time, but each performance record belongs to a specific ad. (one-to-many)  <br>
 
 
 ## The Entity Relationship Diagram
