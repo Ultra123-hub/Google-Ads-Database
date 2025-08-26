@@ -66,6 +66,28 @@ using pre-existing columns as foreign keys.
 ![Google Database Entity Relationship Diagram](erd.png)
 
 
+## Inserting Data into the Database Using SQL Queries
+
+## Advertiser Table
+
+'''sql
+insert into advertiser(advertiserid, advertisername, contactperson,contactemail,phonenumber)
+VALUES (1, 'Simtech Creative', 'Chinwe okoro','Chinweokoro@gmail.com','+234 (0)70 4735 0000'),
+(2, 'Gain Infinity - Digital Marketing Agency','Emeka IIbe', 'emekaibe@gmail.com','+234 (0)70 61839863'),
+(3,'Business Digital Agency', 'Kehinde Adebayo', 'Kehindeadebayo@gmail.com','+234 (0)90 2726 9753'),
+(4, 'Algorithm Media', 'Funke Adewale','Funkeadewale@gmail.com', '+234 (0)70 4735 0001'),
+(5, 'Super Stars Promotions Limited', 'Ifeanyi Nwachukwu', 'IfeanyiNwackukwu@gmail.com','+234 (0)70 6183 9069'),
+(6, 'Stanoz Designs', 'Ngozi obi', 'ngoziobi@gmail.com', '+234 (0)90 2726 9754'),
+(7, 'Alternative Adverts ltd', 'Tolu Onifade', 'toluonifade@gmail.com','+234 (0)70 4735 0002'),
+(8, 'Betteroffservice Advertising Agency','Bayo Alabi','bayoalabi@gmail.com', '+234 (0)70 6183 9070'),
+(9, 'Odichi Solutions', 'Zainab Abdullahi', 'zainababdullahi@gmail.com', '+234 (0)90 2726 9755'),
+(10, 'Gems Communication Ltd', 'Yakubu Danladi', 'yankubudanladi@gmail.com', '+234 (0)70 4735 0003'),
+(11, 'Wetherheads, Advertising Group', 'Amara Umeh', 'amaraumeh@gmail.com', '+234 (0)70 6183 9071'),
+(12, 'Adhubbing', 'Abdullahi Musa', 'abdullahimusa@gmail.com',  '+234 (0)90 2726 9756'),
+(13, 'Ellae Creative', 'Esther Ogunleye', 'estherogunleye@gmail.com', '+234 (0)70 4735 0004');
+'''
+
+
 
 
 
