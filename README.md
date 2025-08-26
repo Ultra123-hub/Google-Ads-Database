@@ -63,6 +63,7 @@ Conversions **INT** <br>
 The Entity Relationship Diagram shows the collection of objects within a database and the relationships between them. It included the entities, attributes, schemas, participation constraints and the relationships between the entities. I modelled this using the ERD tool in MySQL by adding tables, defining columns and specifying the relationships between the tables
 using pre-existing columns as foreign keys.
 
+![Google Database Entity Relationship Diagram](erd.png)
 
 
 
