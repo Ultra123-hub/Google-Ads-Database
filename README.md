@@ -71,6 +71,7 @@ using pre-existing columns as foreign keys.
 ## Advertiser Table
 
 '''sql
+
 insert into advertiser(advertiserid, advertisername, contactperson,contactemail,phonenumber)
 VALUES (1, 'Simtech Creative', 'Chinwe okoro','Chinweokoro@gmail.com','+234 (0)70 4735 0000'),
 (2, 'Gain Infinity - Digital Marketing Agency','Emeka IIbe', 'emekaibe@gmail.com','+234 (0)70 61839863'),
