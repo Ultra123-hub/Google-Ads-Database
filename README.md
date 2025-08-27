@@ -173,5 +173,15 @@ select * from performance
 
 ## Queries Supporting the Business Objectives
 
+## Top 5 Performing Advertisements
+
+```sql
+select advertisement.AdID, Advertisement.Ad_Title, sum(Clicks) as Total_clicks, sum(conversions) as total_conversion
+from Advertisement join performance on advertisement.adid = performance.adid group by advertisement.adid order by total_conversion desc
+limit 5;
+```
+
+## Results
+
 
 
