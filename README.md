@@ -173,7 +173,7 @@ select * from performance
 
 ## Queries Supporting the Business Objectives
 
-## Top 5 Performing Advertisements
+## 1. Top 5 Performing Advertisements
 
 ```sql
 select advertisement.AdID, Advertisement.Ad_Title, sum(Clicks) as Total_clicks, sum(conversions) as total_conversion
