@@ -190,3 +190,4 @@ limit 5;
 ## 2. Top performing Advertisers
 ![Top performing advertisers](question_2.png)
 
+**Insight:** It can be observed that 'Super Star Promotions Limited' led the pack when it comes to the top performing advertisers. 
