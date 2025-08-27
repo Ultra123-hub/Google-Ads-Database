@@ -209,8 +209,27 @@ group by advertiser.advertiserid order by total_conversion desc;
 
 **Insight:** It can be observed that 'Super Star Promotions Limited' led the pack when it comes to the top performing advertisers.
 
-## 3. 
+## 3. Top performing campaigns based on impression
 
+```sql
+select campaign.campaignid,
+       campaign.campaign_name,
+       campaign.budget,
+       advertisement.ad_title,
+       sum(impressions) as total_impression
+from campaign 
+join advertisement 
+  on campaign.campaignid = advertisement.campaignid 
+group by campaign.campaignid, 
+         campaign.campaign_name, 
+         campaign.budget, 
+         advertisement.ad_title
+LIMIT 0, 100
+```
+
+
+## Results
+![Top performing campaigns based on impression](question_3.png)
 
 ## Recommendations Based on the Insights
 
