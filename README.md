@@ -207,4 +207,10 @@ group by advertiser.advertiserid order by total_conversion desc;
 ## Results
 ![Top performing advertisers](question_2.png)
 
-**Insight:** It can be observed that 'Super Star Promotions Limited' led the pack when it comes to the top performing advertisers. 
+**Insight:** It can be observed that 'Super Star Promotions Limited' led the pack when it comes to the top performing advertisers.
+
+## 3. 
+
+
+## Recommendations Based on the Insights
+
