@@ -188,6 +188,23 @@ limit 5;
 'Elevate Your Space: Home Decor Inspiration' (16). It can also be gleaned that the top performing markets include fitness, consumer tech products, interior decor.
 
 ## 2. Top performing Advertisers
+
+```sql
+select
+advertiser.advertiserid,
+advertiser_name,
+contact_person,
+contact_email,
+sum(performance.conversions) as total_conversion from advertiser
+join campaign on advertiser.advertiserid = campaign.advertiserid
+join advertisement
+on campaign.campaignid = advertisement.campaignid
+join performance
+on performance.adid = advertisement.adid
+group by advertiser.advertiserid order by total_conversion desc;
+```
+
+## Results
 ![Top performing advertisers](question_2.png)
 
 **Insight:** It can be observed that 'Super Star Promotions Limited' led the pack when it comes to the top performing advertisers. 
