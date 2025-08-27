@@ -184,5 +184,5 @@ limit 5;
 ## Results
 ![Top performing advertisements](question_1.png)
 
-Insight: It can be observed above that 'Flash Sale Alert: Limited Time Offers' had the highest conversion rate in terms of top performing advertisements (18), followed by
+**Insight:** It can be observed above that 'Flash Sale Alert: Limited Time Offers' had the highest conversion rate in terms of top performing advertisements (18), followed by
 'Elevate Your Space: Home Decor Inspiration' (16). It can also be gleaned that the top performing markets include fitness, consumer tech products, interior decor.
