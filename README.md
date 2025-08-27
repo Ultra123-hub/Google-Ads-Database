@@ -182,6 +182,6 @@ limit 5;
 ```
 
 ## Results
-
+![Top performing advertisements](question_1.png)
 
 
