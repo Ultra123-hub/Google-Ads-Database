@@ -188,5 +188,5 @@ limit 5;
 'Elevate Your Space: Home Decor Inspiration' (16). It can also be gleaned that the top performing markets include fitness, consumer tech products, interior decor.
 
 ## 2. Top performing Advertisers
-
+![Top performing advertisers](question_2.png)
 
